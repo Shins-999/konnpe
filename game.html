@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学内コンペ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/game.css">
+</head>
+
+<body>
+
+    <header>
+        <!--　タイトル -->
+        <h1>博多駅南アカデミック</h1>
+
+        <!-- メニューバー -->
+        <nav>
+            <ul>
+                <li><a href="home.html">ホーム</a></li>
+                <li><a href="index.html">筋トレ</a></li>
+                <li><a href="game.html">ミニゲーム</a></li>
+                <li><a href="image.html">画像</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- ゲーム本体 -->
+    <main class="game">
+        <div id="maxCombo">Max: 0</div>
+        <div id="comboCount">Combo: 0</div>
+        <div id="comboGauge">
+            <div id="comboBar"></div>
+        </div>
+        <p class="info">表示されたキーを押してダンス！</p>
+        <div class="dance-frame">
+            <img id="danceImage" src="img/gameImage_1.png" alt="ダンス">
+        </div>
+        <div id="KeyBox">
+            <div id="keyDisplay">W</div>
+        </div>
+    </main>
+
+    <script src="js/game.js"></script>
+</body>
+
+</html>

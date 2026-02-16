@@ -1,0 +1,88 @@
+.game {
+    text-align: center;
+    margin-top: 40px;
+
+    position: relative;
+}
+
+.info {
+    font-size: 18px;
+}
+
+#comboCount {
+    position: absolute;
+    top: 80px;
+    right: 60px;
+
+    font-size: 35px;
+    color: black;
+}
+
+#maxCombo {
+    position: absolute;
+    top: 50px;
+    right: 70px;
+    font-size: 25px;
+    color: black;
+}
+
+#comboGauge {
+    position: absolute;
+    top: 130px;
+    right: 60px;
+
+    width: 230px;
+    height: 15px;
+
+    background: #ddd;
+}
+
+#comboBar {
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+#keyDisplay {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+#KeyBox {
+    width: 220px;
+    height: 100px;
+    margin: 20px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 72px;
+    font-weight: bold;
+
+    background: linear-gradient(145deg, #ffffc8, #f3ff96);
+
+
+
+    box-shadow:
+        6px 6px 0 #c9d65c,
+        10px 10px 20px rgba(0, 0, 0, 0.35);
+
+    transition: all 0.08s ease;
+}
+
+#danceImage {
+    width: 600px;
+    height: auto;
+
+}
+
+.dance-frame {
+    margin: 0 auto;
+    border: 2px dashed #888;
+    background: #ffe9ac;
+
+    padding: 15px;
+
+    display: inline-block;
+}

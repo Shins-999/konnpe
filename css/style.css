@@ -1,0 +1,93 @@
+header {
+    height: auto;
+
+    background: linear-gradient(180deg,
+            #fff9f3,
+            #ffeedb);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 18px;
+
+    /* 色はオレンジ寄りだけど強すぎない */
+    color: #a84e00;
+
+    font-size: 2.0rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+nav {
+    border-top: 1px solid rgba(255, 255, 255, 0.35);
+
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(180deg,
+            #ffedd4,
+            #ffe7cd);
+
+    text-decoration: none;
+    color: #a84e00;
+    font-size: 0.95rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+
+    white-space: nowrap;
+    /* ← 改行防止 */
+
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #7a3500;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 8px;
+}
+
+
+nav li {
+    flex: 0 0 180px;
+
+    border-bottom: 2px solid rgba(230, 142, 65, 0.25);
+}
+
+body {
+    margin: 0px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

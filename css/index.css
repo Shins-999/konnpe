@@ -1,0 +1,80 @@
+body {
+    position: relative;
+}
+
+header {
+    position: relative;
+    z-index: 10;
+}
+
+.side-deco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+    top: 128px;
+    bottom: 0;
+    width: 15%;
+
+    pointer-events: none;
+    z-index: -1;
+
+    background: linear-gradient(180deg,
+            rgb(255, 240, 238),
+            rgb(255, 238, 234));
+}
+
+.side-deco.left {
+    left: 0;
+}
+
+.side-deco.right {
+    right: 0;
+}
+
+.side-deco img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.image-deco-right {
+    transform: rotate(30deg);
+    transform-origin: center;
+}
+
+.image-deco-left {
+    transform: rotate(-30deg);
+    transform-origin: center;
+}
+
+.setsu {
+    max-width: 600px;
+    margin: 32px 0;
+
+    padding: 6px 8px;
+
+    background: #ffffff;
+
+    border-left: 4px solid rgba(255, 199, 150, 0.9);
+    border-right: 4px solid rgba(255, 199, 150, 0.9);
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    justify-content: center;
+}
+
+.setsu img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+
+    background: linear-gradient(180deg,
+            #fffbf9,
+            #fffefd);
+}
